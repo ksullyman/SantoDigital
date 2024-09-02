@@ -1,0 +1,20 @@
+Explicação Detalhada
+Gerar Subconjuntos:
+
+A função gerar_subconjuntos começa com o subconjunto vazio [].
+Para cada número no conjunto, cria novos subconjuntos adicionando esse número a todos os subconjuntos já existentes.
+Isso resulta na criação de todos os subconjuntos possíveis.
+Remover Duplicatas:
+
+Se somente_distintos for True, removemos duplicatas do conjunto de entrada usando set e convertendo de volta para uma lista.
+Filtrar por Tamanho:
+
+Filtramos os subconjuntos para garantir que eles tenham pelo menos min_tamanho elementos e no máximo max_tamanho elementos, se esses parâmetros forem especificados.
+Ordenar Subconjuntos:
+
+Se ordenar_subconjuntos for True, ordenamos cada subconjunto individualmente e também a lista completa de subconjuntos com base no tamanho.
+Teste da Função
+Entrada: Para o conjunto [1, 2, 2, 3] com max_tamanho=3, min_tamanho=1, somente_distintos=True, e ordenar_subconjuntos=True.
+Saída: A função retorna todos os subconjuntos possíveis, respeitando os parâmetros especificados.
+Exemplos de Saída
+Para o conjunto [1, 2, 2, 3], com as opções acima, a saída será:

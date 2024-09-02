@@ -1,0 +1,11 @@
+Explicação das Variáveis:
+numeros: A lista de números para a qual queremos encontrar todos os subconjuntos.
+subconjuntos: Uma lista que armazena todos os subconjuntos gerados. Inicia com apenas o conjunto vazio [[]].
+numero: Cada número da lista numeros que está sendo processado.
+subconjunto_atual: Representa o subconjunto atual dentro da iteração, ao qual adicionaremos o numero para criar novos subconjuntos.
+Como Funciona:
+Inicialização: A variável subconjuntos começa com o conjunto vazio.
+
+Iteração: Para cada numero na lista numeros, adicionamos esse numero a todos os subconjuntos existentes em subconjuntos.
+
+Combinação: Usamos uma list comprehension para adicionar o numero atual a cada subconjunto_atual, criando novos subconjuntos.

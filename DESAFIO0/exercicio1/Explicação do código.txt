@@ -1,0 +1,9 @@
+Explicação do Código:
+Passo 1: Criamos uma lista vazia chamada lista_asteriscos que vai armazenar as strings de asteriscos.
+
+Passo 2: Utilizamos um loop for com range(1, n + 1). O range começa em 1 e vai até n, inclusive. Para cada valor i no loop, criamos uma string asteriscos que contém i asteriscos usando a multiplicação de strings ('*' * i). Essa string é então adicionada à lista lista_asteriscos usando o método append.
+
+Passo 3: Depois que o loop termina, a lista lista_asteriscos é retornada, contendo todas as strings necessárias.
+
+Teste da Função:
+Rodar a função com n = 5 vai gerar a lista ['*', '**', '***', '****', '*****'], exatamente como solicitado.

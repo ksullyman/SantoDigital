@@ -1,0 +1,18 @@
+Explicação do Código
+Ordenação do Array:
+
+A lista de números é ordenada para que a diferença entre números consecutivos seja fácil de calcular.
+Encontrar Pares com Menor Diferença:
+
+A função percorre o array para encontrar pares consecutivos com a menor diferença absoluta.
+Parâmetros Opcionais:
+
+permitir_duplicatas (allow_duplicates):
+Se False, remove pares com valores iguais (ex.: (2, 2)).
+pares_ordenados (sorted_pairs):
+Se True, ordena cada par para garantir a forma (menor, maior).
+pares_unicos (unique_pairs):
+Se True, remove pares duplicados, tratando (a, b) e (b, a) como iguais.
+Exemplo de Uso
+Entrada: Para o array [1, 3, 4, 7, 10, 20, 2] com permitir_duplicatas=False, pares_ordenados=True, e pares_unicos=True.
+Saída: A função retornará pares de números com a menor diferença absoluta, conforme as restrições dadas.
